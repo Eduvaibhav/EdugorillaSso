@@ -6,7 +6,7 @@ To use the feature first initialise the EdugorillaSso class as
         EdugorillaSso.generateLink(user_info, context);
         
 3. Allow the internet permission in Manifest of your project as
-        <uses-permission android:name="android.permission.INTERNET"/>
+        #<uses-permission android:name="android.permission.INTERNET"/>
         
 4. Add the Web activity of module CipherText in your Manifest.xml as
-        <activity android:name="com.edugorilla.ssologin.WebView"/>
+        #<activity android:name="com.edugorilla.ssologin.WebView"/>
