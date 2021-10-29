@@ -1,4 +1,4 @@
-To use the feature first initialise the CipherTextClass as
+To use the feature first initialise the EdugorillaSso class as
         EdugorillaSso.setBaseUrlAndFileLocation.setBaseUrlAndFileLocation(base_url, location_of_binary_secret_file);
         
 2. And then call the generateLink(String user_info, Context context) of CipherTextClass as
